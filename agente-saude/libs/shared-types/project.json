@@ -1,0 +1,17 @@
+{
+  "name": "shared-types",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/shared-types/src",
+  "projectType": "library",
+  "tags": [
+    "scope:shared"
+  ],
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "tsup libs/shared-types/src/index.ts --format cjs,esm --dts --outDir dist/libs/shared-types"
+      }
+    }
+  }
+}
