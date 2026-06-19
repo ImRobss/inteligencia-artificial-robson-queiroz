@@ -1,0 +1,17 @@
+{
+  "name": "http-client",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/http-client/src",
+  "projectType": "library",
+  "tags": [
+    "scope:shared"
+  ],
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "tsup libs/http-client/src/index.ts --format cjs,esm --dts --outDir dist/libs/http-client"
+      }
+    }
+  }
+}
