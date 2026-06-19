@@ -88,7 +88,7 @@ Formulário clínico onde o usuário informa os dados do paciente (glicose, IMC,
 
 > Aqui ficará o link para o notebook com o código completo do modelo Python (treino, avaliação e API).
 
-**Notebook:** [Adicionar link aqui]()
+**Notebook:** [https://drive.google.com/file/d/1yPyAeLTqd5I_dqknuG2UvaW_eIfBQfTZ/view?usp=sharing]
 
 ---
 
